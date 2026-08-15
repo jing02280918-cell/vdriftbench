@@ -1,0 +1,4 @@
+{"sample_id": "S0199", "round_idx": 1, "VDS": 1, "EFS": 0, "NJS": 1, "SCS": 0, "IFR": 0}
+{"sample_id": "S0199", "round_idx": 2, "VDS": 1, "EFS": 1, "NJS": 1, "SCS": 1, "IFR": 2}
+{"sample_id": "S0199", "round_idx": 3, "VDS": 1, "EFS": 2, "NJS": 1, "SCS": 1, "IFR": 1}
+{"sample_id": "S0199", "round_idx": 4, "VDS": 2, "EFS": 2, "NJS": 1, "SCS": 0, "IFR": 2}

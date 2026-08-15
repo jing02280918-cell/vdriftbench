@@ -1,0 +1,167 @@
+{
+  "local_counts": {
+    "历史类||S_engaged": {
+      "P4_rhetoric": [
+        5.0,
+        1.0
+      ],
+      "P7_direct": [
+        0.0,
+        0.0
+      ],
+      "P7+P6": [
+        0.0,
+        0.0
+      ],
+      "P4_value": [
+        1.0,
+        0.0
+      ]
+    },
+    "历史类||S_neutral": {
+      "P2": [
+        2.0,
+        0.0
+      ]
+    },
+    "历史类||S_soft_resist": {
+      "P7_direct": [
+        0.0,
+        0.0
+      ],
+      "P7+P6": [
+        0.0,
+        0.0
+      ],
+      "P4_value": [
+        0.0,
+        2.0
+      ],
+      "P1变体": [
+        0.0,
+        1.0
+      ],
+      "P6": [
+        0.0,
+        1.0
+      ]
+    },
+    "政治与社会类||S_engaged": {
+      "P4_rhetoric": [
+        5.0,
+        5.0
+      ],
+      "P7_direct": [
+        0.0,
+        1.0
+      ],
+      "P7+P6": [
+        0.0,
+        0.0
+      ],
+      "P4_value": [
+        1.0,
+        0.0
+      ]
+    },
+    "政治与社会类||S_neutral": {
+      "P7_direct": [
+        0.0,
+        0.0
+      ],
+      "P7+P6": [
+        0.0,
+        0.0
+      ],
+      "P4_value": [
+        0.0,
+        1.0
+      ],
+      "P2": [
+        0.0,
+        1.0
+      ]
+    },
+    "政治与社会类||S_soft_resist": {
+      "P1变体": [
+        1.0,
+        0.0
+      ],
+      "P6": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "global_counts": {
+    "S_engaged||P4_rhetoric": [
+      10.0,
+      6.0
+    ],
+    "S_neutral||P2": [
+      2.0,
+      1.0
+    ],
+    "S_soft_resist||P7_direct": [
+      0.0,
+      0.0
+    ],
+    "S_soft_resist||P7+P6": [
+      0.0,
+      0.0
+    ],
+    "S_soft_resist||P4_value": [
+      0.0,
+      2.0
+    ],
+    "S_soft_resist||P1变体": [
+      1.0,
+      1.0
+    ],
+    "S_soft_resist||P6": [
+      0.0,
+      1.0
+    ],
+    "S_engaged||P7_direct": [
+      0.0,
+      1.0
+    ],
+    "S_engaged||P7+P6": [
+      0.0,
+      0.0
+    ],
+    "S_engaged||P4_value": [
+      2.0,
+      0.0
+    ],
+    "S_neutral||P7_direct": [
+      0.0,
+      0.0
+    ],
+    "S_neutral||P7+P6": [
+      0.0,
+      0.0
+    ],
+    "S_neutral||P4_value": [
+      0.0,
+      1.0
+    ]
+  },
+  "is_default_flags": {
+    "S_engaged||P4_rhetoric": false,
+    "S_neutral||P2": false,
+    "S_soft_resist||P7_direct": true,
+    "S_soft_resist||P7+P6": false,
+    "S_soft_resist||P4_value": false,
+    "S_soft_resist||P1变体": true,
+    "S_soft_resist||P6": false,
+    "S_engaged||P7_direct": true,
+    "S_engaged||P7+P6": false,
+    "S_engaged||P4_value": false,
+    "S_neutral||P7_direct": true,
+    "S_neutral||P7+P6": false,
+    "S_neutral||P4_value": false
+  },
+  "next_formal_id": 8,
+  "shadow_pool": {}
+}

@@ -1,0 +1,4 @@
+2026-08-08T02:38:32+08:00 HEARTBEAT progress=1/295 idle=0s
+2026-08-08T02:43:32+08:00 HEARTBEAT progress=3/295 idle=0s
+2026-08-08T02:48:32+08:00 HEARTBEAT progress=4/295 idle=0s
+DONE_WATCHING: process exited EARLY, progress=4/295 (check run.log for a traceback)

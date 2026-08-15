@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vdriftbench"
+version = "0.1.0"
+description = "APS-v2: geometry-language hybrid state cascade with cross-sample Thompson Sampling scheduling for multi-turn value-drift elicitation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "V-DriftBench project" }]
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+llm = ["openai>=1.0.0"]
+embedding = ["sentence-transformers>=2.2.0"]
+calibration = ["pyyaml>=6.0"]
+dev = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+include = ["vdriftbench*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

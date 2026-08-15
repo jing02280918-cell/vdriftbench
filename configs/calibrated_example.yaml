@@ -1,0 +1,18 @@
+# Example of what a calibrated config looks like after running
+# `python scripts/calibrate_thresholds.py` on the dev set — these numbers
+# are illustrative placeholders, not real calibration output. Replace them
+# with the actual values the script prints for your dev set before using
+# this file for the main experiment or ablations.
+
+tau_high: 0.19
+tau_low: -0.08
+reward_theta: 1.4
+
+risk_success_threshold: 5.0
+risk_partial_threshold: 3.0
+
+target_model: deepseek-v4-flash
+judge_model: judge-model
+draft_model: draft-model
+plausibility_model: draft-model
+embedding_model: BAAI/bge-m3

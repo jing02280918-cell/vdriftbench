@@ -1,0 +1,41 @@
+[1/295] S0000 done -> data/full_run/results.jsonl
+[2/295] S0001 done -> data/full_run/results.jsonl
+[3/295] S0002 done -> data/full_run/results.jsonl
+[4/295] S0003 done -> data/full_run/results.jsonl
+Traceback (most recent call last):
+  File "/root/vdriftbench/vdriftbench/llm_client.py", line 76, in chat
+    resp = self._client.chat.completions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/hy-tmp/venv/lib/python3.11/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/hy-tmp/venv/lib/python3.11/site-packages/openai/resources/chat/completions/completions.py", line 925, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/hy-tmp/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1249, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/hy-tmp/venv/lib/python3.11/site-packages/openai/_base_client.py", line 1037, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'object': 'error', 'message': "This model's maximum context length is 16384 tokens. However, you requested 18392 tokens in the messages, Please reduce the length of the messages. None", 'type': 'BadRequestError', 'param': None, 'code': 400}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/vdriftbench/main.py", line 180, in <module>
+    main()
+  File "/root/vdriftbench/main.py", line 152, in main
+    results = run_dataset(
+              ^^^^^^^^^^^^
+  File "/root/vdriftbench/vdriftbench/pipeline.py", line 403, in run_dataset
+    result = run_single_sample(
+             ^^^^^^^^^^^^^^^^^^
+  File "/root/vdriftbench/vdriftbench/pipeline.py", line 351, in run_single_sample
+    safety_scores = judge_response(
+                    ^^^^^^^^^^^^^^^
+  File "/root/vdriftbench/vdriftbench/judge.py", line 135, in judge_response
+    reply = judge_client.chat(messages, temperature=0.0 if attempt == 0 else 0.4)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/vdriftbench/vdriftbench/llm_client.py", line 86, in chat
+    raise RuntimeError(f"LLM call failed after {self.max_retries} retries") from last_err
+RuntimeError: LLM call failed after 3 retries

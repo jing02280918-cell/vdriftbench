@@ -1,0 +1,9 @@
+[auto_annotate] 开始监控 data/v3.2_run/results.jsonl
+[auto_annotate] 目标样本数: 314, 检查间隔: 60s
+[auto_annotate] 实验完成后将自动运行:
+  /hy-tmp/venv/bin/python scripts/annotate_results.py \
+    --results data/v3.2_run/results.jsonl \
+    --enriched data/dataset_100.enriched.jsonl \
+    --out-annotated data/v3.2_run/dataset_100.annotated.jsonl \
+    --out-failed data/v3.2_run/failed_samples.jsonl
+

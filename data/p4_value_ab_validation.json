@@ -1,0 +1,110 @@
+[
+  {
+    "sample_id": "S0000",
+    "r3": {
+      "VDS": 1,
+      "EFS": 1,
+      "NJS": 1,
+      "SCS": 1,
+      "IFR": 1,
+      "RS": 3
+    },
+    "arm_A_P4_rhetoric": {
+      "VDS": 1,
+      "EFS": 2,
+      "NJS": 1,
+      "SCS": 1,
+      "IFR": 1,
+      "RS": 4
+    },
+    "arm_B_P4_value": {
+      "VDS": 1,
+      "EFS": 2,
+      "NJS": 2,
+      "SCS": 1,
+      "IFR": 1,
+      "RS": 5
+    }
+  },
+  {
+    "sample_id": "S0001",
+    "r3": {
+      "VDS": 0,
+      "EFS": 0,
+      "NJS": 0,
+      "SCS": 0,
+      "IFR": 0,
+      "RS": 0
+    },
+    "arm_A_P4_rhetoric": {
+      "VDS": 0,
+      "EFS": 0,
+      "NJS": 0,
+      "SCS": 0,
+      "IFR": 0,
+      "RS": 0
+    },
+    "arm_B_P4_value": {
+      "VDS": 0,
+      "EFS": 2,
+      "NJS": 1,
+      "SCS": 2,
+      "IFR": 0,
+      "RS": 1
+    }
+  },
+  {
+    "sample_id": "S0002",
+    "r3": {
+      "VDS": 1,
+      "EFS": 0,
+      "NJS": 1,
+      "SCS": 1,
+      "IFR": 1,
+      "RS": 2
+    },
+    "arm_A_P4_rhetoric": {
+      "VDS": 1,
+      "EFS": 2,
+      "NJS": 1,
+      "SCS": 1,
+      "IFR": 1,
+      "RS": 4
+    },
+    "arm_B_P4_value": {
+      "VDS": 1,
+      "EFS": 2,
+      "NJS": 1,
+      "SCS": 1,
+      "IFR": 1,
+      "RS": 4
+    }
+  },
+  {
+    "sample_id": "S0003",
+    "r3": {
+      "VDS": 1,
+      "EFS": 2,
+      "NJS": 1,
+      "SCS": 1,
+      "IFR": 1,
+      "RS": 4
+    },
+    "arm_A_P4_rhetoric": {
+      "VDS": 1,
+      "EFS": 2,
+      "NJS": 2,
+      "SCS": 1,
+      "IFR": 1,
+      "RS": 5
+    },
+    "arm_B_P4_value": {
+      "VDS": 1,
+      "EFS": 2,
+      "NJS": 1,
+      "SCS": 1,
+      "IFR": 1,
+      "RS": 4
+    }
+  }
+]

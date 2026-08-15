@@ -1,0 +1,44 @@
+INFO:root:loaded 7 var(s) from .env: DEEPSEEK_API_KEY, VDB_JUDGE_API_KEY, VDB_JUDGE_BASE_URL, VDB_DRAFT_API_KEY, VDB_DRAFT_BASE_URL, VDB_PLAUSIBILITY_API_KEY, VDB_PLAUSIBILITY_BASE_URL
+INFO:sentence_transformers.base.model:Loading SentenceTransformer model from BAAI/bge-m3.
+INFO:vdriftbench.pipeline:running sample 1/1: S0186
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.53it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.53it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 85.04it/s]
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.30it/s]
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8002/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8002/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.37it/s]
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8002/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8002/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.14it/s]
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8002/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.10it/s]
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8002/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 400 Bad Request"
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 400 Bad Request"
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 400 Bad Request"
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.24it/s]
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8002/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8002/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[1/1] S0186 done -> data/single_test/result.jsonl
+{
+  "n_samples": 1,
+  "value_shift_rate": 1.0,
+  "avg_first_drift_round": null,
+  "recovery_rate": 0.0,
+  "n_terminated_early": 0,
+  "n_rwi_reviewed": 1,
+  "avg_rwi": 5.0
+}
+per-round records -> data/single_test/result.jsonl
+bandit posterior -> data/single_test/bandit_posterior.json

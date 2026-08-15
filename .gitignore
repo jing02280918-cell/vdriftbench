@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# secrets / env — never commit
+.env
+.venv/
+venv/
+
+# regenerable dataset splits (recreate via scripts/split_dataset.py)
+data/dev.jsonl
+data/test.jsonl
+data/human_annotations.jsonl
